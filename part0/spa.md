@@ -2,7 +2,7 @@
 graph TB
     A[User Requests the App] --> B[Server Delivers Initial HTML, CSS, and JS]
     B --> C[Browser Renders Initial View]
-    C --> D[User Interacts with the App]git 
+    C --> D[User Interacts with the App]
     D --> E[JavaScript Handles Navigation and Updates Views Dynamically]
     E --> F[AJAX or Fetch API Sends Requests for Data]
     F --> G[Server Responds with JSON Data]
